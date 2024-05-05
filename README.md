@@ -1,13 +1,13 @@
 # DS_-_ML_LearningPath
 My learning journey covering various topics from Data Science to advanced machine learning
 
-# Data Science Concepts
-
 ## Programming Concepts
 - **Classes**
   - `init`
   - `super`
 - **Inheritance**
+  
+# Data Science Concepts
 
 ## Python Libraries for Data Visualization
 - **Matplotlib**
@@ -39,7 +39,7 @@ My learning journey covering various topics from Data Science to advanced machin
   - Box Cox
 - Bayesian Statistics
 
-## Variables and Testing
+## Statistical Testing
 - Different Types of Variables
 - Hypothesis Testing
 - Parametric and Non-parametric Tests
@@ -47,6 +47,7 @@ My learning journey covering various topics from Data Science to advanced machin
   - T-test / Chi-squared Test
   - Confusion Matrix
 
+# Machine learning
 ## Regression Analysis
 - **Linear Regression**
   - Polynomial Linear Regression
