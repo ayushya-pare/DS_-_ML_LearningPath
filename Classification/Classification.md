@@ -1,0 +1,12 @@
+# Classification
+- Logistic Regression
+- KNN
+- Naive Bayes
+- Random Forest
+- Decision Tree
+- Regularization (L1, L2, Alpha vs C)
+- Class Imbalance
+- Classification Report
+- Confusion Matrix Heatmap
+- ROC-AUC
+- F1 Score
