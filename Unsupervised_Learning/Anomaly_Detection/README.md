@@ -1,0 +1,5 @@
+- Distribution based methods
+	- 3 Sigma
+	- Boxplot 
+- Local outlier factor (LOF)
+- Isolation factor
