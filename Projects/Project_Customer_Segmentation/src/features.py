@@ -1,15 +1,12 @@
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
+# src/features.py
+import pandas as pd
+from sklearn.model_selection import train_test_split
 
-def select_features(X):
-    numerical_cols = X.select_dtypes(include=[np.number]).columns
-    categorical_cols = X.select_dtypes(include=['object', 'category']).columns
-    return numerical_cols, categorical_cols
+def define_features_labels(df):
+    X = df.drop(columns='Churn', axis=1)
+    y = df['Churn']
+    return X, y
 
-def create_preprocessor(numerical_cols, categorical_cols):
-    preprocessor = ColumnTransformer(
-        transformers=[
-            ("num", StandardScaler(), numerical_cols),
-            ("cat", OneHotEncoder(), categorical_cols)
-        ])
-    return preprocessor
+def perform_train_test_split(X, y):
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    return X_train, X_test, y_train, y_test
